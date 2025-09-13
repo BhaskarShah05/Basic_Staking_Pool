@@ -1,0 +1,16 @@
+[package]
+name = "Basic_Staking_Pool"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x055bd8dd9fe75c7715c9b2855d635ddbe807c8f95d77a60909c6c1446bb7dc76"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
